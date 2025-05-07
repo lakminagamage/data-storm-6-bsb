@@ -13,6 +13,8 @@ Adjust these based on the competition needs:
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm catboost jupyter notebook kaggle
+or
+pip install -r requirements.txt
 pip install -U pip  # Upgrade pip to the latest version
 ```
 
@@ -35,8 +37,7 @@ chmod 600 ~/.kaggle/kaggle.json
 1. Create a folder named `.kaggle` in your user directory (e.g., `C:\Users\<YourUsername>\.kaggle`).
 2. Move the `kaggle.json` file into this folder.
 3. Set the file permissions to read-only for your user account.
-```bash
-
+```
 
 ## 4. 📥 Download Competition Data
 
